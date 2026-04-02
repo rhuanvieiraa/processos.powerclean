@@ -1,4 +1,4 @@
-# 🚀 Central de Processos Internos - Power Clean
+#  Central de Processos Internos - Power Clean
 
 ### 📝 Descrição do Projeto
 Este projeto nasceu de uma necessidade real identificada no dia a dia da **Power Clean**. A empresa utiliza diversos formulários do Google Forms para gestão de processos, porém, o acesso a esses links era descentralizado (espalhados em grupos de WhatsApp e e-mails), gerando perda de tempo e confusão operacional.
