@@ -19,3 +19,10 @@ Este projeto nasceu de uma necessidade real identificada no dia a dia da **Power
 - [x] **Design Responsivo**: O layout se adapta automaticamente para dispositivos móveis.
 - [x] **Interface Intuitiva**: Uso de cards arredondados e efeitos de *hover* para melhor experiência do usuário (UX).
 - [x] **Segurança**: Links configurados para abrir em nova aba (`target="_blank"`), mantendo a central sempre aberta.
+
+## 👤 Desenvolvedor
+**Rhuan Vieira de Souza**
+
+🎓 **Estudante de Sistemas de Informação - Universidade Presbiteriana Mackenzie**
+
+📊 **Data Analyst na Power Clean**
