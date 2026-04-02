@@ -1,0 +1,71 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+/* Barra de cima (Logo) */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Grid de Botões (O "pulo do gato") */
+.grid-botoes {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; /* Espaça os botões para as extremidades */
+    gap: 15px; /* Espaço entre os botões */
+    margin-top: 30px;
+}
+
+.botao-link {
+    /* 48% garante que caibam 2 por linha com um espaço no meio */
+    width: 48%; 
+    padding: 18px 10px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 12px; /* Arredondado conforme seu wireframe */
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Garante que o padding não quebre o tamanho */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Efeito ao passar o mouse */
+.botao-link:hover {
+    background-color:red;
+    color: #fff;
+    transform: translateY(-2px); /* Leve subida ao interagir */
+}
+
+/* Responsividade: No celular vira uma coluna só para não ficar apertado */
+@media (max-width: 600px) {
+    .botao-link {
+        width: 100%;
+    }
+}
